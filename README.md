@@ -1,0 +1,1 @@
+This project is an interactive "Etch-a-Sketch" board. It applies the use of html, css and javascript in one website.
