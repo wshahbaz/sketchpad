@@ -99,23 +99,6 @@ function gradiant(e) {
     }
 
     return style;
-
-
-
-    /* if (!style) {
-        style = "rgba(0, 0, 0, 0.1)";
-    } 
-    else if (style.substr(0,12) != "rgba(0, 0, 0)") {
-        style = "rgba(0, 0, 0, 0.1)";
-    }
-    else if (style == "rgba(0, 0, 0, 1)") {
-        style = style.replace("1", "0");
-    }
-    else {
-        let alpha = style.substr(15,17);
-        style = style.replace(alpha, "${parseFloat(alpha) + 0.1}");
-    }
-    return style; */
 }
 
 function rainbow() {
